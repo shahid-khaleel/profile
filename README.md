@@ -1,8 +1,10 @@
 # Hi, I'm Shahid Khaleel 👋
 
-Senior DevOps Engineer building hands-on, working proofs-of-concept across cloud infrastructure, Kubernetes platform engineering, service mesh & identity, GitOps, and MLOps. Every repo below is real, runnable code — not slideware — with documentation aimed at the standard I'd want to review as a senior engineer.
+Senior DevOps Engineer with hands-on experience designing and implementing real-world cloud-native infrastructure and platform engineering projects. My work spans **Infrastructure as Code (IaC)**, **Kubernetes**, **service mesh**, **cloud infrastructure**, **GitOps**, **identity & security**, **CI/CD**, **observability**, and **MLOps**, with every repository representing a practical, working implementation rather than a theoretical proof of concept.
 
-I write up what actually happened, including the rough edges: known issues, unfinished tracks, and stranded branches are documented in-repo rather than hidden. If you're a recruiter or hiring manager skimming this, the **Flagship Projects** section below is the fastest path to seeing the range of what I build.
+The projects below showcase end-to-end implementations built from the ground up using production-grade tools and engineering practices. Each repository includes source code, infrastructure definitions, deployment workflows, architecture documentation, and implementation details that reflect the standards I expect when reviewing senior-level engineering work.
+
+I document the complete engineering journey—including design decisions, trade-offs, challenges, known limitations, and future improvements—instead of only presenting polished outcomes. If you're a recruiter or hiring manager, the **Flagship Projects** section below is the quickest way to explore the breadth of my hands-on experience across **IaC, Kubernetes platform engineering, service mesh, cloud infrastructure, GitOps, and MLOps**.
 
 ---
 
