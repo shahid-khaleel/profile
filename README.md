@@ -35,6 +35,7 @@ Organized by track — every project here is a real, working implementation with
 | [kubernetes](https://github.com/shahid-khaleel/kubernetes) | A collection of focused K8s operator demos: ConfigMap hot-reload, EFS CSI storage, IRSA for S3 access, the API request lifecycle (Kyverno + Kustomize), and MySQL StatefulSet replication |
 | [kubernetes-security-documentation](https://github.com/shahid-khaleel/kubernetes-security-documentation) | A curated ~150-topic personal knowledge base spanning Linux, Docker, and Kubernetes security fundamentals |
 | [app](https://github.com/shahid-khaleel/app) | A Kubernetes file-descriptor-exhaustion failure-mode simulator, paired with a Grafana dashboard to observe it |
+| [cosign-kyverno-slsa-demo](https://github.com/shahid-khaleel/cosign-kyverno-slsa-demo) | A container supply-chain security pipeline: GitHub Actions builds and pushes to Docker Hub, generates SLSA v1 provenance, and signs the image keylessly with cosign (Sigstore Fulcio/Rekor) — enforced at admission time by Kyverno policies that verify both the signature and the provenance before a Pod is allowed to run |
 
 ### 🔐 Service Mesh, Identity & Secrets
 | Repo | Focus |
@@ -59,7 +60,7 @@ Organized by track — every project here is a real, working implementation with
 
 ## 🛠️ Core Technologies
 
-`Kubernetes` `Terraform` `Ansible` `Helm` `Istio` `Argo CD` `HashiCorp Vault` `Keycloak` `Docker` `AWS (EKS/IAM/KMS/EFS)` `GitHub Actions` `GitLab CI` `Prometheus/Grafana` `Jaeger` `MLflow` `Fluentd`
+`Kubernetes` `Terraform` `Ansible` `Helm` `Istio` `Argo CD` `HashiCorp Vault` `Keycloak` `Docker` `AWS (EKS/IAM/KMS/EFS)` `GitHub Actions` `GitLab CI` `Prometheus/Grafana` `Jaeger` `MLflow` `Fluentd` `Kyverno` `cosign/Sigstore` `SLSA`
 
 ---
 
