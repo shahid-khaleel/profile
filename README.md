@@ -1,6 +1,6 @@
 # Hi, I'm Shahid Khaleel 👋
 
-DevOps / Platform Engineer building hands-on, working proofs-of-concept across cloud infrastructure, Kubernetes platform engineering, service mesh & identity, GitOps, and MLOps. Every repo below is real, runnable code — not slideware — with documentation aimed at the standard I'd want to review as a senior engineer.
+Senior DevOps Engineer building hands-on, working proofs-of-concept across cloud infrastructure, Kubernetes platform engineering, service mesh & identity, GitOps, and MLOps. Every repo below is real, runnable code — not slideware — with documentation aimed at the standard I'd want to review as a senior engineer.
 
 I write up what actually happened, including the rough edges: known issues, unfinished tracks, and stranded branches are documented in-repo rather than hidden. If you're a recruiter or hiring manager skimming this, the **Flagship Projects** section below is the fastest path to seeing the range of what I build.
 
@@ -12,7 +12,7 @@ These three are the deepest and most complete — start here.
 
 | Project | What it demonstrates |
 |---|---|
-| [**payment-application-poc**](https://github.com/shahid-khaleel/payment-application-poc) | A 19-microservice payment platform (auth, wallet, settlement, fraud detection, webhooks...) with per-service Helm charts, Kustomize overlays, contract tests, load tests, dependency scanning, and incident runbooks — the largest and most operationally mature project here. |
+| [**payment-platform**](https://github.com/shahid-khaleel/payment-platform) | A 19-microservice payment platform (auth, wallet, settlement, fraud detection, webhooks...) with per-service Helm charts, Kustomize overlays, contract tests, load tests, dependency scanning, and incident runbooks — the largest and most operationally mature project here. |
 | [**argocd-deployment**](https://github.com/shahid-khaleel/argocd-deployment) | A complete GitOps loop: GitHub Actions builds and pushes an image, rewrites the manifest, and Argo CD syncs it to a cluster — with real troubleshooting notes captured from live deployment sessions. |
 | [**mlops-credit-card-fraud-detection**](https://github.com/shahid-khaleel/mlops-credit-card-fraud-detection) | A full MLOps stack (training → MLflow → model serving → prediction API) with Kubernetes manifests for autoscaling, RBAC, network policy, and a full observability stack (Prometheus/Grafana/Jaeger). |
 
@@ -38,9 +38,9 @@ These three are the deepest and most complete — start here.
 ### 🔐 Service Mesh, Identity & Secrets
 | Repo | Focus |
 |---|---|
-| [istio-poc](https://github.com/shahid-khaleel/istio-poc) | Istio service mesh capabilities on two demo microservices: strict mTLS, ingress gateway routing, canary traffic splitting, fault injection, and circuit breaking |
-| [poc-keycloak-auth](https://github.com/shahid-khaleel/poc-keycloak-auth) | Keycloak-based auth behind an Apache reverse proxy, with an evolution across branches toward a full Kubernetes + Istio + observability deployment |
-| [poc-k8s-auth-demo](https://github.com/shahid-khaleel/poc-k8s-auth-demo) | Kubernetes-native OIDC authentication via Keycloak, deployable via raw manifests, Helm, or Docker Compose |
+| [istio-service-mesh](https://github.com/shahid-khaleel/istio-service-mesh) | Istio service mesh capabilities on two demo microservices: strict mTLS, ingress gateway routing, canary traffic splitting, fault injection, and circuit breaking |
+| [keycloak-auth-apache](https://github.com/shahid-khaleel/keycloak-auth-apache) | Keycloak-based auth behind an Apache reverse proxy, with an evolution across branches toward a full Kubernetes + Istio + observability deployment |
+| [k8s-auth-keycloak](https://github.com/shahid-khaleel/k8s-auth-keycloak) | Kubernetes-native OIDC authentication via Keycloak, deployable via raw manifests, Helm, or Docker Compose |
 | [hashicorp-vault-project](https://github.com/shahid-khaleel/hashicorp-vault-project) | Vault secrets management implemented twice independently (Python/Flask and Java/Spring Boot), covering AppRole auth, KV v2, least-privilege policy, and zero-downtime secret rotation |
 
 ### 🔁 GitOps & CI/CD
