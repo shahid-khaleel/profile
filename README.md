@@ -1,5 +1,7 @@
 # Hi, I'm Shahid Khaleel 👋
 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-shahidkhaleel78-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shahidkhaleel78/)
+
 Senior DevOps Engineer with hands-on experience designing and implementing real-world cloud-native infrastructure and platform engineering projects. My work spans **Infrastructure as Code (IaC)**, **Kubernetes**, **service mesh**, **cloud infrastructure**, **GitOps**, **identity & security**, **CI/CD**, **observability**, and **MLOps**, with every repository representing a practical, working implementation rather than a theoretical proof of concept.
 
 The projects below showcase end-to-end implementations built from the ground up using production-grade tools and engineering practices. Each repository includes source code, infrastructure definitions, deployment workflows, architecture documentation, and implementation details that reflect the standards I expect when reviewing senior-level engineering work.
@@ -63,4 +65,6 @@ Organized by track — every project here is a real, working implementation with
 
 ## 📫 Reach me
 
-Open an issue on any of the repos above, or connect via GitHub.
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-shahidkhaleel78-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shahidkhaleel78/)
+
+Open an issue on any of the repos above, connect on [LinkedIn](https://www.linkedin.com/in/shahidkhaleel78/), or reach out via GitHub.
