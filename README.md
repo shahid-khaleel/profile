@@ -10,17 +10,14 @@ I document the complete engineering journey—including design decisions, trade-
 
 ## 🚀 Flagship Projects
 
-These three are the deepest and most complete — start here.
+Organized by track — every project here is a real, working implementation with source code, infrastructure definitions, deployment workflows, and architecture documentation behind it.
 
+### 🏆 Core Platforms
 | Project | What it demonstrates |
 |---|---|
 | [**payment-platform**](https://github.com/shahid-khaleel/payment-platform) | A 19-microservice payment platform (auth, wallet, settlement, fraud detection, webhooks...) with per-service Helm charts, Kustomize overlays, contract tests, load tests, dependency scanning, and incident runbooks — the largest and most operationally mature project here. |
 | [**argocd-deployment**](https://github.com/shahid-khaleel/argocd-deployment) | A complete GitOps loop: GitHub Actions builds and pushes an image, rewrites the manifest, and Argo CD syncs it to a cluster — with real troubleshooting notes captured from live deployment sessions. |
 | [**mlops-credit-card-fraud-detection**](https://github.com/shahid-khaleel/mlops-credit-card-fraud-detection) | A full MLOps stack (training → MLflow → model serving → prediction API) with Kubernetes manifests for autoscaling, RBAC, network policy, and a full observability stack (Prometheus/Grafana/Jaeger). |
-
----
-
-## 🧭 Everything else, by track
 
 ### ☁️ Cloud Infrastructure & IaC
 | Repo | Focus |
@@ -44,9 +41,6 @@ These three are the deepest and most complete — start here.
 | [keycloak-auth-apache](https://github.com/shahid-khaleel/keycloak-auth-apache) | Keycloak-based auth behind an Apache reverse proxy, with an evolution across branches toward a full Kubernetes + Istio + observability deployment |
 | [k8s-auth-keycloak](https://github.com/shahid-khaleel/k8s-auth-keycloak) | Kubernetes-native OIDC authentication via Keycloak, deployable via raw manifests, Helm, or Docker Compose |
 | [hashicorp-vault-project](https://github.com/shahid-khaleel/hashicorp-vault-project) | Vault secrets management implemented twice independently (Python/Flask and Java/Spring Boot), covering AppRole auth, KV v2, least-privilege policy, and zero-downtime secret rotation |
-
-### 🔁 GitOps & CI/CD
-See **argocd-deployment** above.
 
 ### 🤖 MLOps & Observability
 | Repo | Focus |
