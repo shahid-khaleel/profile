@@ -49,7 +49,7 @@ Organized by track — every project here is a real, working implementation with
 |---|---|
 | [kubeflow-implementation](https://github.com/shahid-khaleel/kubeflow-implementation) | A single-node Kubeflow proof-of-concept using real KServe/KFP custom resources for a training → serving pipeline |
 | [fluentd-implementation](https://github.com/shahid-khaleel/fluentd-implementation) | A Kubernetes logging pipeline: a custom Fluentd image and Helm chart routing multi-service logs to Elasticsearch and S3, with real incident write-ups |
-| [ebpf-observability](https://github.com/shahid-khaleel/ebpf-observability) | An eBPF-based kernel observability stack (Cilium/Hubble + Tetragon) on Kubernetes, watching network connections, process creation, file access, and syscalls with zero application instrumentation — plus a threat-intel alerting pipeline and a live unified dashboard |
+| [ebpf-observability](https://github.com/shahid-khaleel/ebpf-observability) | An eBPF-based kernel observability stack (Cilium/Hubble + Tetragon) on Kubernetes, watching network connections, process creation, file access, and syscalls with zero application instrumentation — plus a threat-intel alerting pipeline, Kyverno-based RBAC admission control, and a live unified dashboard |
 
 ### 🖥️ Full-Stack Applications
 | Repo | Focus |
