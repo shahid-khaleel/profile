@@ -32,7 +32,7 @@ Organized by track — every project here is a real, working implementation with
 ### ⎈ Kubernetes Platform & Security
 | Repo | Focus |
 |---|---|
-| [kubernetes](https://github.com/shahid-khaleel/kubernetes) | A collection of focused K8s operator demos: ConfigMap hot-reload, EFS CSI storage, IRSA for S3 access, the API request lifecycle (Kyverno + Kustomize), and MySQL StatefulSet replication |
+| [kubernetes](https://github.com/shahid-khaleel/kubernetes) | A collection of focused K8s operator demos: ConfigMap hot-reload, EFS CSI storage, IRSA for S3 access, the API request lifecycle (Kyverno + Kustomize), MySQL StatefulSet replication, and a full Jenkins → SonarQube → Docker → Minikube CI/CD pipeline built end-to-end |
 | [kubernetes-security-documentation](https://github.com/shahid-khaleel/kubernetes-security-documentation) | A curated ~150-topic personal knowledge base spanning Linux, Docker, and Kubernetes security fundamentals |
 | [app](https://github.com/shahid-khaleel/app) | A Kubernetes file-descriptor-exhaustion failure-mode simulator, paired with a Grafana dashboard to observe it |
 
@@ -60,7 +60,7 @@ Organized by track — every project here is a real, working implementation with
 
 ## 🛠️ Core Technologies
 
-`Kubernetes` `Terraform` `Ansible` `Helm` `Istio` `Argo CD` `HashiCorp Vault` `Keycloak` `Docker` `AWS (EKS/IAM/KMS/EFS)` `GitHub Actions` `GitLab CI` `Prometheus/Grafana` `Jaeger` `MLflow` `Fluentd` `Kyverno` `cosign/Sigstore` `SLSA`
+`Kubernetes` `Terraform` `Ansible` `Helm` `Istio` `Argo CD` `HashiCorp Vault` `Keycloak` `Docker` `AWS (EKS/IAM/KMS/EFS)` `GitHub Actions` `GitLab CI` `Jenkins` `SonarQube` `Prometheus/Grafana` `Jaeger` `MLflow` `Fluentd` `Kyverno` `cosign/Sigstore` `SLSA`
 
 ---
 
