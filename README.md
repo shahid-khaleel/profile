@@ -64,6 +64,12 @@ Organized by track — every project here is a real, working implementation with
 
 ---
 
+## ☁️ AWS Expertise
+
+`AWS Solutions Architect` `AWS DevOps Professional` `AWS Security` `AWS Networking` `AWS Serverless` `AWS EKS`
+
+---
+
 ## 📫 Reach me
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-shahidkhaleel78-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shahidkhaleel78/)
