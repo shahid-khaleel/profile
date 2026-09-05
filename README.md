@@ -40,6 +40,7 @@ Organized by track — every project here is a real, working implementation with
 | Repo | Focus |
 |---|---|
 | [istio-service-mesh](https://github.com/shahid-khaleel/istio-service-mesh) | Istio service mesh capabilities on two demo microservices: strict mTLS, ingress gateway routing, canary traffic splitting, fault injection, and circuit breaking |
+| [istio](https://github.com/shahid-khaleel/istio) | A minikube-sized Istio + OpenTelemetry + Jaeger + Kiali observability stack on Istio's Bookinfo sample, with a root-caused fix for a Python auto-instrumentation propagator bug that was silently splitting every trace into two disconnected traces — documented end-to-end in a step-by-step runbook |
 | [keycloak-auth-apache](https://github.com/shahid-khaleel/keycloak-auth-apache) | Keycloak-based auth behind an Apache reverse proxy, with an evolution across branches toward a full Kubernetes + Istio + observability deployment |
 | [k8s-auth-keycloak](https://github.com/shahid-khaleel/k8s-auth-keycloak) | Kubernetes-native OIDC authentication via Keycloak, deployable via raw manifests, Helm, or Docker Compose |
 | [hashicorp-vault-project](https://github.com/shahid-khaleel/hashicorp-vault-project) | Vault secrets management implemented twice independently (Python/Flask and Java/Spring Boot), covering AppRole auth, KV v2, least-privilege policy, and zero-downtime secret rotation |
