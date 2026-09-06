@@ -48,6 +48,7 @@ Organized by track — every project here is a real, working implementation with
 ### 🤖 MLOps & Observability
 | Repo | Focus |
 |---|---|
+| [mlops](https://github.com/shahid-khaleel/mlops) | A churn-prediction MLOps stack on Minikube: MLflow tracking + Model Registry, KServe (Standard/RawDeployment mode) serving both a test and the production model, Kubeflow Trainer, and a fully working Kubeflow Dashboard behind Istio + Dex + oauth2-proxy — backed by a 12-section reference manual documenting every API surface, real gotcha hit, and the exact reproduction runbook. |
 | [kubeflow-implementation](https://github.com/shahid-khaleel/kubeflow-implementation) | A single-node Kubeflow proof-of-concept using real KServe/KFP custom resources for a training → serving pipeline |
 | [fluentd-implementation](https://github.com/shahid-khaleel/fluentd-implementation) | A Kubernetes logging pipeline: a custom Fluentd image and Helm chart routing multi-service logs to Elasticsearch and S3, with real incident write-ups |
 | [ebpf-observability](https://github.com/shahid-khaleel/ebpf-observability) | An eBPF-based kernel observability stack (Cilium/Hubble + Tetragon) on Kubernetes, watching network connections, process creation, file access, and syscalls with zero application instrumentation — plus a threat-intel alerting pipeline, Kyverno-based RBAC admission control, and a live unified dashboard |
