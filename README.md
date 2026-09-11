@@ -33,15 +33,6 @@ Kernel-level observability with **zero application instrumentation** — Cilium/
 </td></tr>
 </table>
 
-**`observability`'s architecture** — five services on Istio, feeding three independent telemetry paths:
-
-```mermaid
-flowchart LR
-    A[5 services<br/>Istio mTLS] --> B[Prometheus<br/>+ Grafana]
-    A --> C[OTel Collector<br/>→ Jaeger]
-    A --> D[Fluentd<br/>→ Elasticsearch]
-```
-
 ---
 
 ## 📂 Everything else, by track
