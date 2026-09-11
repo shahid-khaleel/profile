@@ -19,13 +19,6 @@ Senior DevOps Engineer building real, working cloud-native infrastructure — **
 ### [observability](https://github.com/shahid-khaleel/observability)
 5 services, 5 observability planes, verified end-to-end on Istio: STRICT mTLS, RED metrics, one real distributed trace with correct parent-child spans across every service, and an EFK pipeline splitting routine logs from a compliance audit index.
 
-```mermaid
-flowchart LR
-    A[5 services<br/>Istio mTLS] --> B[Prometheus<br/>+ Grafana]
-    A --> C[OTel Collector<br/>→ Jaeger]
-    A --> D[Fluentd<br/>→ Elasticsearch]
-```
-
 </td></tr>
 <tr><td width="50%" valign="top">
 
@@ -39,6 +32,15 @@ Kernel-level observability with **zero application instrumentation** — Cilium/
 
 </td></tr>
 </table>
+
+**`observability`'s architecture** — five services on Istio, feeding three independent telemetry paths:
+
+```mermaid
+flowchart LR
+    A[5 services<br/>Istio mTLS] --> B[Prometheus<br/>+ Grafana]
+    A --> C[OTel Collector<br/>→ Jaeger]
+    A --> D[Fluentd<br/>→ Elasticsearch]
+```
 
 ---
 
