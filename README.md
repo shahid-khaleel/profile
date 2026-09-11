@@ -2,24 +2,52 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-shahidkhaleel78-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shahidkhaleel78/)
 
-Senior DevOps Engineer with hands-on experience designing and implementing real-world cloud-native infrastructure and platform engineering projects. My work spans **Infrastructure as Code (IaC)**, **Kubernetes**, **service mesh**, **cloud infrastructure**, **GitOps**, **identity & security**, **CI/CD**, **observability**, and **MLOps**, with every repository representing a practical, working implementation rather than a theoretical proof of concept.
+I once root-caused a bug in Python's OpenTelemetry auto-instrumentation that was silently splitting every trace into two disconnected ones — then documented the fix end-to-end. That's the depth behind every project below.
 
-The projects below showcase end-to-end implementations built from the ground up using production-grade tools and engineering practices. Each repository includes source code, infrastructure definitions, deployment workflows, architecture documentation, and implementation details that reflect the standards I expect when reviewing senior-level engineering work.
-
-I document the complete engineering journey—including design decisions, trade-offs, challenges, known limitations, and future improvements—instead of only presenting polished outcomes. If you're a recruiter or hiring manager, the **Flagship Projects** section below is the quickest way to explore the breadth of my hands-on experience across **IaC, Kubernetes platform engineering, service mesh, cloud infrastructure, GitOps, and MLOps**.
+Senior DevOps Engineer building real, working cloud-native infrastructure — **IaC**, **Kubernetes**, **service mesh**, **cloud infrastructure**, **GitOps**, **identity & security**, **CI/CD**, **observability**, and **MLOps**. Every repository ships source code, infrastructure definitions, deployment workflows, and architecture docs — plus the trade-offs and limitations I actually hit, not a polished-outcomes-only highlight reel.
 
 ---
 
-## 🚀 Flagship Projects
+## 🏆 Start here — 4 projects that show the range
 
-Organized by track — every project here is a real, working implementation with source code, infrastructure definitions, deployment workflows, and architecture documentation behind it.
+<table>
+<tr><td width="50%" valign="top">
 
-### 🏆 Core Platforms
-| Project | What it demonstrates |
-|---|---|
-| [**payment-platform**](https://github.com/shahid-khaleel/payment-platform) | A 19-microservice payment platform (auth, wallet, settlement, fraud detection, webhooks...) with per-service Helm charts, Kustomize overlays, contract tests, load tests, dependency scanning, and incident runbooks — the largest and most operationally mature project here. |
-| [**argocd-deployment**](https://github.com/shahid-khaleel/argocd-deployment) | A complete GitOps loop: GitHub Actions builds and pushes an image, rewrites the manifest, and Argo CD syncs it to a cluster — with real troubleshooting notes captured from live deployment sessions. |
-| [**mlops-credit-card-fraud-detection**](https://github.com/shahid-khaleel/mlops-credit-card-fraud-detection) | A full MLOps stack (training → MLflow → model serving → prediction API) with Kubernetes manifests for autoscaling, RBAC, network policy, and a full observability stack (Prometheus/Grafana/Jaeger). |
+### [payment-platform](https://github.com/shahid-khaleel/payment-platform)
+19 microservices — auth, wallet, settlement, fraud detection, webhooks — with per-service Helm charts, Kustomize overlays, contract tests, load tests, dependency scanning, and incident runbooks. The largest and most operationally mature project here.
+
+</td><td width="50%" valign="top">
+
+### [observability](https://github.com/shahid-khaleel/observability)
+5 services, 5 observability planes, verified end-to-end on Istio: STRICT mTLS, RED metrics, one real distributed trace with correct parent-child spans across every service, and an EFK pipeline splitting routine logs from a compliance audit index.
+
+```mermaid
+flowchart LR
+    A[5 services<br/>Istio mTLS] --> B[Prometheus<br/>+ Grafana]
+    A --> C[OTel Collector<br/>→ Jaeger]
+    A --> D[Fluentd<br/>→ Elasticsearch]
+```
+
+</td></tr>
+<tr><td width="50%" valign="top">
+
+### [istio](https://github.com/shahid-khaleel/istio)
+Root-caused a bug in Python's OpenTelemetry auto-instrumentation that was silently splitting every trace in two — full Istio + Jaeger + Kiali stack on Bookinfo, fix documented step by step in a runbook.
+
+</td><td width="50%" valign="top">
+
+### [ebpf-observability](https://github.com/shahid-khaleel/ebpf-observability)
+Kernel-level observability with **zero application instrumentation** — Cilium/Hubble + Tetragon watching network connections, process creation, file access, and syscalls, plus a threat-intel alerting pipeline and Kyverno admission control.
+
+</td></tr>
+</table>
+
+---
+
+## 📂 Everything else, by track
+
+<details>
+<summary><strong>17 more repositories — Cloud Infrastructure, Kubernetes Platform, Service Mesh, MLOps, Full-Stack (click to expand)</strong></summary>
 
 ### ☁️ Cloud Infrastructure & IaC
 | Repo | Focus |
@@ -40,24 +68,29 @@ Organized by track — every project here is a real, working implementation with
 | Repo | Focus |
 |---|---|
 | [istio-service-mesh](https://github.com/shahid-khaleel/istio-service-mesh) | Istio service mesh capabilities on two demo microservices: strict mTLS, ingress gateway routing, canary traffic splitting, fault injection, and circuit breaking |
-| [istio](https://github.com/shahid-khaleel/istio) | A minikube-sized Istio + OpenTelemetry + Jaeger + Kiali observability stack on Istio's Bookinfo sample, with a root-caused fix for a Python auto-instrumentation propagator bug that was silently splitting every trace into two disconnected traces — documented end-to-end in a step-by-step runbook |
-| [observability](https://github.com/shahid-khaleel/observability) | A 5-service payment platform (gateway/auth/transaction/ledger/fraud-check) instrumented across all five observability planes at once on Istio: STRICT mTLS, Prometheus/Grafana RED metrics, OpenTelemetry → Jaeger tracing, and an **EFK** (Elasticsearch + Fluentd + Kibana) pipeline that splits routine logs from a separate compliance audit-event index. Every layer verified with real captured evidence — one trace with correct parent-child spans across all 5 services, `connection_security_policy=mutual_tls` on every hop, live audit documents in Elasticsearch — not just deployed and assumed working. |
 | [keycloak-auth-apache](https://github.com/shahid-khaleel/keycloak-auth-apache) | Keycloak-based auth behind an Apache reverse proxy, with an evolution across branches toward a full Kubernetes + Istio + observability deployment |
 | [k8s-auth-keycloak](https://github.com/shahid-khaleel/k8s-auth-keycloak) | Kubernetes-native OIDC authentication via Keycloak, deployable via raw manifests, Helm, or Docker Compose |
 | [hashicorp-vault-project](https://github.com/shahid-khaleel/hashicorp-vault-project) | Vault secrets management implemented twice independently (Python/Flask and Java/Spring Boot), covering AppRole auth, KV v2, least-privilege policy, and zero-downtime secret rotation |
 
+### 🚀 GitOps & Delivery
+| Repo | Focus |
+|---|---|
+| [argocd-deployment](https://github.com/shahid-khaleel/argocd-deployment) | A complete GitOps loop: GitHub Actions builds and pushes an image, rewrites the manifest, and Argo CD syncs it to a cluster — with real troubleshooting notes captured from live deployment sessions. |
+
 ### 🤖 MLOps & Observability
 | Repo | Focus |
 |---|---|
+| [mlops-credit-card-fraud-detection](https://github.com/shahid-khaleel/mlops-credit-card-fraud-detection) | A full MLOps stack (training → MLflow → model serving → prediction API) with Kubernetes manifests for autoscaling, RBAC, network policy, and a full observability stack (Prometheus/Grafana/Jaeger). |
 | [mlops](https://github.com/shahid-khaleel/mlops) | A churn-prediction MLOps stack on Minikube: MLflow tracking + Model Registry, KServe (Standard/RawDeployment mode) serving both a test and the production model, Kubeflow Trainer, and a fully working Kubeflow Dashboard behind Istio + Dex + oauth2-proxy — backed by a 12-section reference manual documenting every API surface, real gotcha hit, and the exact reproduction runbook. |
 | [kubeflow-implementation](https://github.com/shahid-khaleel/kubeflow-implementation) | A single-node Kubeflow proof-of-concept using real KServe/KFP custom resources for a training → serving pipeline |
 | [fluentd-implementation](https://github.com/shahid-khaleel/fluentd-implementation) | A Kubernetes logging pipeline: a custom Fluentd image and Helm chart routing multi-service logs to Elasticsearch and S3, with real incident write-ups |
-| [ebpf-observability](https://github.com/shahid-khaleel/ebpf-observability) | An eBPF-based kernel observability stack (Cilium/Hubble + Tetragon) on Kubernetes, watching network connections, process creation, file access, and syscalls with zero application instrumentation — plus a threat-intel alerting pipeline, Kyverno-based RBAC admission control, and a live unified dashboard |
 
 ### 🖥️ Full-Stack Applications
 | Repo | Focus |
 |---|---|
 | [devopslearning](https://github.com/shahid-khaleel/devopslearning) | A fintech demo app (Flask + React) extended with LLM-driven natural-language intent routing |
+
+</details>
 
 ---
 
