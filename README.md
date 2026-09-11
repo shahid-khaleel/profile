@@ -2,9 +2,7 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-shahidkhaleel78-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shahidkhaleel78/)
 
-I once root-caused a bug in Python's OpenTelemetry auto-instrumentation that was silently splitting every trace into two disconnected ones — then documented the fix end-to-end. That's the depth behind every project below.
-
-Senior DevOps Engineer building real, working cloud-native infrastructure — **IaC**, **Kubernetes**, **service mesh**, **cloud infrastructure**, **GitOps**, **identity & security**, **CI/CD**, **observability**, and **MLOps**. Every repository ships source code, infrastructure definitions, deployment workflows, and architecture docs — plus the trade-offs and limitations I actually hit, not a polished-outcomes-only highlight reel.
+Senior DevOps Engineer building real, working cloud-native infrastructure — **IaC**, **Kubernetes**, **service mesh**, **cloud infrastructure**, **GitOps**, **identity & security**, **CI/CD**, **observability**, and **MLOps**. Every repository ships source code, infrastructure definitions, deployment workflows, and architecture docs — plus the trade-offs, debugging, and challenges I actually hit, not a polished-outcomes-only highlight reel.
 
 ---
 
