@@ -62,7 +62,7 @@ Kernel-level observability with **zero application instrumentation** — Cilium/
 |---|---|
 | [kubernetes](https://github.com/shahid-khaleel/kubernetes) | A collection of focused K8s operator demos: ConfigMap hot-reload, EFS CSI storage, IRSA for S3 access, the API request lifecycle (Kyverno + Kustomize), MySQL StatefulSet replication, and a full Jenkins → SonarQube → Docker → Minikube CI/CD pipeline built end-to-end |
 | [kubernetes-security-documentation](https://github.com/shahid-khaleel/kubernetes-security-documentation) | A curated ~150-topic personal knowledge base spanning Linux, Docker, and Kubernetes security fundamentals |
-| [app](https://github.com/shahid-khaleel/app) | A Kubernetes file-descriptor-exhaustion failure-mode simulator, paired with a Grafana dashboard to observe it |
+| [kubernetes-fds](https://github.com/shahid-khaleel/kubernetes-fds) | A Kubernetes file-descriptor-exhaustion failure-mode simulator, paired with a Grafana dashboard to observe it |
 
 ### 🔐 Service Mesh, Identity & Secrets
 | Repo | Focus |
