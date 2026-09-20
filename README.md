@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A66C2,100:25D366&height=200&section=header&text=Shahid%20Khaleel&fontSize=48&fontColor=ffffff&fontAlignY=38&desc=Senior%20DevOps%20Engineer&descAlignY=58&descSize=20&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2B213A,50:E5289E,100:EF8539&height=200&section=header&text=Shahid%20Khaleel&fontSize=48&fontColor=ffffff&fontAlignY=38&desc=Senior%20DevOps%20Engineer&descAlignY=58&descSize=20&animation=fadeIn" width="100%"/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1200&color=0A66C2&center=true&vCenter=true&width=750&lines=Senior+DevOps+Engineer;Kubernetes+%7C+GitOps+%7C+Service+Mesh+%7C+IaC;Self-hosted+GitLab+%2B+Kubernetes-native+CI%2FCD;I+ship+the+debugging+notes%2C+not+just+the+demo)](https://github.com/shahid-khaleel)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=E5289E&center=true&vCenter=true&width=750&lines=Senior+DevOps+Engineer;Kubernetes+%7C+GitOps+%7C+Service+Mesh+%7C+IaC;Self-hosted+GitLab+%2B+Kubernetes-native+CI%2FCD;I+ship+the+debugging+notes%2C+not+just+the+demo)](https://github.com/shahid-khaleel)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-shahidkhaleel78-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shahidkhaleel78/)
 [![GitHub followers](https://img.shields.io/github/followers/shahid-khaleel?style=for-the-badge&logo=github&label=Follow&color=181717)](https://github.com/shahid-khaleel)
@@ -11,14 +11,27 @@
 
 Senior DevOps Engineer building real, working cloud-native infrastructure — **IaC**, **Kubernetes**, **service mesh**, **cloud infrastructure**, **GitOps**, **identity & security**, **CI/CD**, **observability**, and **MLOps**. Every repository ships source code, infrastructure definitions, deployment workflows, and architecture docs — plus the trade-offs, debugging, and challenges I actually hit, not a polished-outcomes-only highlight reel.
 
+```bash
+$ whoami
+shahid-khaleel
+
+$ kubectl get engineer shahid-khaleel -o wide
+NAME              STATUS   ROLE                   UPTIME   RESTARTS
+shahid-khaleel    Ready    Senior DevOps Engineer  24/7     0 (reads the postmortem first)
+
+$ cat ./philosophy.md
+> Ship it deployed, debugged, and documented — not just demoed.
+> If it broke in production, it's in the README.
+```
+
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats-eight-theta.vercel.app/api?username=shahid-khaleel&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
-![Top Langs](https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=shahid-khaleel&layout=compact&theme=tokyonight&hide_border=true)
+![GitHub Stats](https://github-readme-stats-eight-theta.vercel.app/api?username=shahid-khaleel&show_icons=true&theme=synthwave&hide_border=true&count_private=true)
+![Top Langs](https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=shahid-khaleel&layout=compact&theme=synthwave&hide_border=true)
 
-![GitHub Streak](https://streak-stats.demolab.com/?user=shahid-khaleel&theme=tokyonight&hide_border=true)
+![GitHub Streak](https://streak-stats.demolab.com/?user=shahid-khaleel&theme=synthwave&hide_border=true)
 
-![Trophies](https://github-trophy-nine.vercel.app/?username=shahid-khaleel&theme=tokyonight&no-frame=true&row=1&column=7)
+![Trophies](https://github-trophy-nine.vercel.app/?username=shahid-khaleel&theme=radical&no-frame=true&row=1&column=7)
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shahid-khaleel/profile/output/github-contribution-grid-snake-dark.svg" />
