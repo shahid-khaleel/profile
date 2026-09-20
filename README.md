@@ -35,8 +35,8 @@ Senior DevOps Engineer building real, working cloud-native infrastructure — **
 <table>
 <tr><td width="50%" valign="top">
 
-### [payment-platform](https://github.com/shahid-khaleel/payment-platform)
-19 microservices — auth, wallet, settlement, fraud detection, webhooks — with per-service Helm charts, Kustomize overlays, contract tests, load tests, dependency scanning, and incident runbooks. The largest and most operationally mature project here.
+### [gitops](https://github.com/shahid-khaleel/gitops)
+Self-managed GitLab, a Kubernetes-executor GitLab Runner, and Argo CD all running on one Minikube cluster — Kaniko + Trivy build/scan pipeline, webhook-triggered sync, and drift/self-heal + Git-based rollback demonstrated live. Deployed and debugged end-to-end: chart version pinning, an in-cluster `clone_url` fix, a YAML lint bug caught via GitLab's own CI Lint API, and server-side apply for Argo CD's oversized CRDs.
 
 </td><td width="50%" valign="top">
 
@@ -61,7 +61,7 @@ Kernel-level observability with **zero application instrumentation** — Cilium/
 
 ## 📂 Everything else, by track
 
-17 more repositories across Cloud Infrastructure, Kubernetes Platform, Service Mesh, GitOps, and MLOps.
+16 more repositories across Cloud Infrastructure, Kubernetes Platform, Service Mesh, GitOps, and MLOps.
 
 ### ☁️ Cloud Infrastructure & IaC
 | Repo | Focus |
@@ -90,7 +90,6 @@ Kernel-level observability with **zero application instrumentation** — Cilium/
 | Repo | Focus |
 |---|---|
 | [argocd-deployment](https://github.com/shahid-khaleel/argocd-deployment) | A complete GitOps loop: GitHub Actions builds and pushes an image, rewrites the manifest, and Argo CD syncs it to a cluster — with real troubleshooting notes captured from live deployment sessions. |
-| [gitops](https://github.com/shahid-khaleel/gitops) | Self-managed GitLab, a Kubernetes-executor GitLab Runner, and Argo CD all running on one Minikube cluster — Kaniko + Trivy build/scan pipeline, Docker Hub as the only registry, webhook-triggered sync, and drift/self-heal + Git-based rollback demonstrated live. Deployed and debugged end-to-end, not just written: chart version pinned after the default dropped bundled Postgres/Redis, an in-cluster `clone_url` fix for the Runner, a YAML lint bug caught via GitLab's own CI Lint API, and server-side apply required for Argo CD's oversized CRDs. |
 
 ### 🤖 MLOps & Observability
 | Repo | Focus |
