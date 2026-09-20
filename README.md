@@ -37,7 +37,7 @@ Kernel-level observability with **zero application instrumentation** — Cilium/
 
 ## 📂 Everything else, by track
 
-16 more repositories across Cloud Infrastructure, Kubernetes Platform, Service Mesh, GitOps, and MLOps.
+17 more repositories across Cloud Infrastructure, Kubernetes Platform, Service Mesh, GitOps, and MLOps.
 
 ### ☁️ Cloud Infrastructure & IaC
 | Repo | Focus |
@@ -66,6 +66,7 @@ Kernel-level observability with **zero application instrumentation** — Cilium/
 | Repo | Focus |
 |---|---|
 | [argocd-deployment](https://github.com/shahid-khaleel/argocd-deployment) | A complete GitOps loop: GitHub Actions builds and pushes an image, rewrites the manifest, and Argo CD syncs it to a cluster — with real troubleshooting notes captured from live deployment sessions. |
+| [gitops](https://github.com/shahid-khaleel/gitops) | Self-managed GitLab, a Kubernetes-executor GitLab Runner, and Argo CD all running on one Minikube cluster — Kaniko + Trivy build/scan pipeline, Docker Hub as the only registry, webhook-triggered sync, and drift/self-heal + Git-based rollback demonstrated live. Deployed and debugged end-to-end, not just written: chart version pinned after the default dropped bundled Postgres/Redis, an in-cluster `clone_url` fix for the Runner, a YAML lint bug caught via GitLab's own CI Lint API, and server-side apply required for Argo CD's oversized CRDs. |
 
 ### 🤖 MLOps & Observability
 | Repo | Focus |
@@ -79,7 +80,7 @@ Kernel-level observability with **zero application instrumentation** — Cilium/
 
 ## 🛠️ Core Technologies
 
-`Kubernetes` `Terraform` `Ansible` `Helm` `Istio` `Argo CD` `HashiCorp Vault` `Keycloak` `Docker` `AWS (EKS/IAM/KMS/EFS)` `GitHub Actions` `GitLab CI` `Jenkins` `SonarQube` `Prometheus/Grafana` `Jaeger` `MLflow` `Elasticsearch` `Fluentd` `Kibana` `Kyverno` `cosign/Sigstore` `SLSA`
+`Kubernetes` `Terraform` `Ansible` `Helm` `Istio` `Argo CD` `HashiCorp Vault` `Keycloak` `Docker` `AWS (EKS/IAM/KMS/EFS)` `GitHub Actions` `GitLab CI` `GitLab (self-managed)` `Jenkins` `SonarQube` `Prometheus/Grafana` `Jaeger` `MLflow` `Elasticsearch` `Fluentd` `Kibana` `Kyverno` `Kaniko` `Trivy` `cosign/Sigstore` `SLSA`
 
 ---
 
