@@ -80,7 +80,7 @@ Kernel-level observability with **zero application instrumentation** — Cilium/
 
 ## 🛠️ Core Technologies
 
-`Kubernetes` `Terraform` `Ansible` `Helm` `Istio` `Argo CD` `HashiCorp Vault` `Keycloak` `Docker` `AWS (EKS/IAM/KMS/EFS)` `GitHub Actions` `GitLab CI` `GitLab (self-managed)` `Jenkins` `SonarQube` `Prometheus/Grafana` `Jaeger` `MLflow` `Elasticsearch` `Fluentd` `Kibana` `Kyverno` `Kaniko` `Trivy` `cosign/Sigstore` `SLSA`
+`Kubernetes` `Minikube` `Terraform` `Ansible` `Helm` `Istio` `Argo CD` `HashiCorp Vault` `Keycloak` `Docker` `AWS (EKS/IAM/KMS/EFS)` `GitHub Actions` `GitLab CI` `GitLab (self-managed)` `Jenkins` `SonarQube` `Prometheus/Grafana` `Jaeger` `MLflow` `FastAPI` `Elasticsearch` `Fluentd` `Kibana` `Kyverno` `Kaniko` `Trivy` `cosign/Sigstore` `SLSA`
 
 ---
 
