@@ -1,6 +1,6 @@
 <div align="center">
 
-# Hi, I'm Shahid Khaleel 👋
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A66C2,100:25D366&height=200&section=header&text=Shahid%20Khaleel&fontSize=48&fontColor=ffffff&fontAlignY=38&desc=Senior%20DevOps%20Engineer&descAlignY=58&descSize=20&animation=fadeIn" width="100%"/>
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1200&color=0A66C2&center=true&vCenter=true&width=750&lines=Senior+DevOps+Engineer;Kubernetes+%7C+GitOps+%7C+Service+Mesh+%7C+IaC;Self-hosted+GitLab+%2B+Kubernetes-native+CI%2FCD;I+ship+the+debugging+notes%2C+not+just+the+demo)](https://github.com/shahid-khaleel)
 
@@ -17,6 +17,14 @@ Senior DevOps Engineer building real, working cloud-native infrastructure — **
 ![Top Langs](https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=shahid-khaleel&layout=compact&theme=tokyonight&hide_border=true)
 
 ![GitHub Streak](https://streak-stats.demolab.com/?user=shahid-khaleel&theme=tokyonight&hide_border=true)
+
+![Trophies](https://github-trophy-nine.vercel.app/?username=shahid-khaleel&theme=tokyonight&no-frame=true&row=1&column=7)
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shahid-khaleel/profile/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/shahid-khaleel/profile/output/github-contribution-grid-snake.svg" />
+  <img alt="contribution snake animation" src="https://raw.githubusercontent.com/shahid-khaleel/profile/output/github-contribution-grid-snake.svg" width="100%" />
+</picture>
 
 </div>
 
