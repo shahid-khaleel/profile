@@ -129,8 +129,6 @@ Kernel-level observability with **zero application instrumentation** — Cilium/
 ![HashiCorp Vault](https://img.shields.io/badge/HashiCorp_Vault-000000?style=for-the-badge&logo=vault&logoColor=FFEC6E)
 ![Keycloak](https://img.shields.io/badge/Keycloak-4D4D4D?style=for-the-badge&logo=keycloak&logoColor=white)
 ![Kyverno](https://img.shields.io/badge/Kyverno-2F8CB3?style=for-the-badge&logo=kyverno&logoColor=white)
-![cosign/Sigstore](https://img.shields.io/badge/cosign%2FSigstore-6E40C9?style=for-the-badge&logo=sigstore&logoColor=white)
-![SLSA](https://img.shields.io/badge/SLSA-555555?style=for-the-badge&logoColor=white)
 
 **Observability**
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
