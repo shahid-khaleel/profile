@@ -26,13 +26,6 @@ $ cat ./philosophy.md
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats-eight-theta.vercel.app/api?username=shahid-khaleel&show_icons=true&theme=synthwave&hide_border=true&count_private=true)
-![Top Langs](https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=shahid-khaleel&layout=compact&theme=synthwave&hide_border=true)
-
-![GitHub Streak](https://streak-stats.demolab.com/?user=shahid-khaleel&theme=synthwave&hide_border=true)
-
-![Trophies](https://github-trophy-nine.vercel.app/?username=shahid-khaleel&theme=radical&no-frame=true&row=1&column=7)
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shahid-khaleel/profile/output/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/shahid-khaleel/profile/output/github-contribution-grid-snake.svg" />
