@@ -156,7 +156,8 @@ Kernel-level observability with **zero application instrumentation** — Cilium/
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-shahidkhaleel78-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shahidkhaleel78/)
 [![GitHub](https://img.shields.io/badge/GitHub-shahid--khaleel-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/shahid-khaleel)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-%2B91_REDACTED-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/91REDACTED)
 
 </div>
 
-Open an issue on any of the repos above, connect on [LinkedIn](https://www.linkedin.com/in/shahidkhaleel78/), or reach out via GitHub.
+Open an issue on any of the repos above, connect on [LinkedIn](https://www.linkedin.com/in/shahidkhaleel78/), message me on [WhatsApp](https://wa.me/91REDACTED), or reach out via GitHub.
