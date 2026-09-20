@@ -1,8 +1,24 @@
+<div align="center">
+
 # Hi, I'm Shahid Khaleel 👋
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-shahidkhaleel78-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shahidkhaleel78/)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1200&color=0A66C2&center=true&vCenter=true&width=750&lines=Senior+DevOps+Engineer;Kubernetes+%7C+GitOps+%7C+Service+Mesh+%7C+IaC;Self-hosted+GitLab+%2B+Kubernetes-native+CI%2FCD;I+ship+the+debugging+notes%2C+not+just+the+demo)](https://github.com/shahid-khaleel)
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-shahidkhaleel78-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shahidkhaleel78/)
+[![GitHub followers](https://img.shields.io/github/followers/shahid-khaleel?style=for-the-badge&logo=github&label=Follow&color=181717)](https://github.com/shahid-khaleel)
+
+</div>
 
 Senior DevOps Engineer building real, working cloud-native infrastructure — **IaC**, **Kubernetes**, **service mesh**, **cloud infrastructure**, **GitOps**, **identity & security**, **CI/CD**, **observability**, and **MLOps**. Every repository ships source code, infrastructure definitions, deployment workflows, and architecture docs — plus the trade-offs, debugging, and challenges I actually hit, not a polished-outcomes-only highlight reel.
+
+<div align="center">
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=shahid-khaleel&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=shahid-khaleel&layout=compact&theme=tokyonight&hide_border=true)
+
+![GitHub Streak](https://streak-stats.demolab.com/?user=shahid-khaleel&theme=tokyonight&hide_border=true)
+
+</div>
 
 ---
 
@@ -80,18 +96,67 @@ Kernel-level observability with **zero application instrumentation** — Cilium/
 
 ## 🛠️ Core Technologies
 
-`Kubernetes` `Minikube` `Terraform` `Ansible` `Helm` `Istio` `Argo CD` `HashiCorp Vault` `Keycloak` `Docker` `AWS (EKS/IAM/KMS/EFS)` `GitHub Actions` `GitLab CI` `GitLab (self-managed)` `Jenkins` `SonarQube` `Prometheus/Grafana` `Jaeger` `MLflow` `FastAPI` `Elasticsearch` `Fluentd` `Kibana` `Kyverno` `Kaniko` `Trivy` `cosign/Sigstore` `SLSA`
+**Containers & Orchestration**
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Minikube](https://img.shields.io/badge/Minikube-4285F4?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Helm](https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white)
+![Istio](https://img.shields.io/badge/Istio-466BB0?style=for-the-badge&logo=istio&logoColor=white)
+
+**Infrastructure as Code**
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
+![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=for-the-badge&logo=ansible&logoColor=white)
+
+**CI/CD & GitOps**
+![GitLab](https://img.shields.io/badge/GitLab_(self--managed)-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)
+![GitLab CI](https://img.shields.io/badge/GitLab_CI-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white)
+![Argo CD](https://img.shields.io/badge/Argo_CD-EF7B4D?style=for-the-badge&logo=argo&logoColor=white)
+![Kaniko](https://img.shields.io/badge/Kaniko-34A853?style=for-the-badge&logo=kaniko&logoColor=white)
+![Trivy](https://img.shields.io/badge/Trivy-1A73E8?style=for-the-badge&logo=trivy&logoColor=white)
+![SonarQube](https://img.shields.io/badge/SonarQube-4E9BCD?style=for-the-badge&logo=sonarqube&logoColor=white)
+
+**Identity, Security & Supply Chain**
+![HashiCorp Vault](https://img.shields.io/badge/HashiCorp_Vault-000000?style=for-the-badge&logo=vault&logoColor=FFEC6E)
+![Keycloak](https://img.shields.io/badge/Keycloak-4D4D4D?style=for-the-badge&logo=keycloak&logoColor=white)
+![Kyverno](https://img.shields.io/badge/Kyverno-2F8CB3?style=for-the-badge&logo=kyverno&logoColor=white)
+![cosign/Sigstore](https://img.shields.io/badge/cosign%2FSigstore-6E40C9?style=for-the-badge&logo=sigstore&logoColor=white)
+![SLSA](https://img.shields.io/badge/SLSA-555555?style=for-the-badge&logoColor=white)
+
+**Observability**
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
+![Jaeger](https://img.shields.io/badge/Jaeger-666666?style=for-the-badge&logo=jaeger&logoColor=white)
+![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=for-the-badge&logo=elasticsearch&logoColor=white)
+![Kibana](https://img.shields.io/badge/Kibana-005571?style=for-the-badge&logo=kibana&logoColor=white)
+![Fluentd](https://img.shields.io/badge/Fluentd-0E83C8?style=for-the-badge&logo=fluentd&logoColor=white)
+
+**Cloud & App/ML Frameworks**
+![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white) *(EKS · IAM · KMS · EFS)*
+![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 
 ---
 
 ## ☁️ AWS Expertise
 
-`AWS Solutions Architect` `AWS DevOps Professional` `AWS Security` `AWS Networking` `AWS Serverless` `AWS EKS`
+![AWS Solutions Architect](https://img.shields.io/badge/AWS_Solutions_Architect-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
+![AWS DevOps Professional](https://img.shields.io/badge/AWS_DevOps_Professional-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
+![AWS Security](https://img.shields.io/badge/AWS_Security-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
+![AWS Networking](https://img.shields.io/badge/AWS_Networking-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
+![AWS Serverless](https://img.shields.io/badge/AWS_Serverless-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
+![AWS EKS](https://img.shields.io/badge/AWS_EKS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
 
 ---
 
 ## 📫 Reach me
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-shahidkhaleel78-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shahidkhaleel78/)
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-shahidkhaleel78-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shahidkhaleel78/)
+[![GitHub](https://img.shields.io/badge/GitHub-shahid--khaleel-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/shahid-khaleel)
+
+</div>
 
 Open an issue on any of the repos above, connect on [LinkedIn](https://www.linkedin.com/in/shahidkhaleel78/), or reach out via GitHub.
