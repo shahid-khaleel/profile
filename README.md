@@ -9,10 +9,19 @@
 
 </div>
 
-Senior DevOps Engineer building real, working cloud-native infrastructure — **IaC**, **Kubernetes**, **service mesh**, **cloud infrastructure**, **GitOps**, **identity & security**, **CI/CD**, **observability**, and **MLOps**. Every repository ships source code, infrastructure definitions, deployment workflows, and architecture docs — plus the trade-offs, debugging, and challenges I actually hit, not a polished-outcomes-only highlight reel.
+Senior DevOps Engineer with close to 7 years building secure, reliable, cost-optimized cloud infrastructure for fintech/BFSI platforms processing **1M+ transactions/day at 99.99% uptime**. Outside of work, I build real, working cloud-native infrastructure in the open — **IaC**, **Kubernetes**, **service mesh**, **cloud infrastructure**, **GitOps**, **identity & security**, **CI/CD**, **observability**, and **MLOps**. Every repository ships source code, infrastructure definitions, deployment workflows, and architecture docs — plus the trade-offs, debugging, and challenges I actually hit, not a polished-outcomes-only highlight reel.
 
 ## ⚡ Highlights
 
+**In production (fintech/BFSI):**
+- **Cut manual deployment effort by 80%** building GitLab CI/CD pipelines to automate AWS EKS deployments, then layering in GitOps via Argo CD for declarative, version-controlled rollouts.
+- **Cut AWS infrastructure costs by 25%** through resource right-sizing and autoscaling, without touching uptime SLAs.
+- **Cut incident response time by 60%** building out observability across microservices with Prometheus, Grafana, and Kibana.
+- **Led disaster recovery** for a public-sector banking client — on-premises infrastructure buildout (Bengaluru–Kolkata) and cloud business continuity (Mumbai–Hyderabad) — including DR drills and RCSA remediation.
+- **Built compliance readiness** across RBI, REBIT, SOC 2, and ISO 27001, supporting successful regulatory audits with banking partners.
+- **Cut release time by 50%+** earlier in my career by automating builds and deployments with Jenkins.
+
+**In the open-source projects below:**
 - **Root-caused a production-grade tracing bug** in Python's OpenTelemetry auto-instrumentation that was silently splitting every distributed trace in two — diagnosed, fixed, and documented step by step in a runbook.
 - **Built a self-managed GitOps platform end-to-end**: GitLab, a Kubernetes-executor GitLab Runner, and Argo CD on one cluster with a Kaniko + Trivy build/scan pipeline, webhook-triggered sync, and Git-based rollback — then debugged it through a chart-pinning issue, an in-cluster `clone_url` fix, a YAML lint failure caught via GitLab's own CI Lint API, and server-side apply for Argo CD's oversized CRDs.
 - **Verified a 5-service mesh end-to-end on Istio**: STRICT mTLS, RED metrics, one real distributed trace with correct parent-child spans across every hop, and an EFK pipeline that splits routine logs from a compliance audit index.
