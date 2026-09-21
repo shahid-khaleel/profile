@@ -11,6 +11,15 @@
 
 Senior DevOps Engineer building real, working cloud-native infrastructure — **IaC**, **Kubernetes**, **service mesh**, **cloud infrastructure**, **GitOps**, **identity & security**, **CI/CD**, **observability**, and **MLOps**. Every repository ships source code, infrastructure definitions, deployment workflows, and architecture docs — plus the trade-offs, debugging, and challenges I actually hit, not a polished-outcomes-only highlight reel.
 
+## ⚡ Highlights
+
+- **Root-caused a production-grade tracing bug** in Python's OpenTelemetry auto-instrumentation that was silently splitting every distributed trace in two — diagnosed, fixed, and documented step by step in a runbook.
+- **Built a self-managed GitOps platform end-to-end**: GitLab, a Kubernetes-executor GitLab Runner, and Argo CD on one cluster with a Kaniko + Trivy build/scan pipeline, webhook-triggered sync, and Git-based rollback — then debugged it through a chart-pinning issue, an in-cluster `clone_url` fix, a YAML lint failure caught via GitLab's own CI Lint API, and server-side apply for Argo CD's oversized CRDs.
+- **Verified a 5-service mesh end-to-end on Istio**: STRICT mTLS, RED metrics, one real distributed trace with correct parent-child spans across every hop, and an EFK pipeline that splits routine logs from a compliance audit index.
+- **Implemented kernel-level observability with zero application instrumentation** using Cilium/Hubble + Tetragon, backed by a threat-intel alerting pipeline and Kyverno admission control.
+- **Authored a 12-section MLOps reference manual** for a full stack — MLflow, KServe, Kubeflow Trainer, and a Kubeflow Dashboard behind Istio + Dex + oauth2-proxy — documenting every API surface and the exact reproduction steps for each gotcha hit.
+- **Curated a ~150-topic Kubernetes/Docker/Linux security knowledge base** from hands-on work, not just reading docs.
+
 ```bash
 $ whoami
 shahid-khaleel
@@ -72,38 +81,38 @@ Kernel-level observability with **zero application instrumentation** — Cilium/
 ### ☁️ Cloud Infrastructure & IaC
 | Repo | Focus |
 |---|---|
-| [terraform](https://github.com/shahid-khaleel/terraform) | Modular EKS + KMS provisioning (community-module-based), environment-scoped (`qa`) |
-| [eks-deployment](https://github.com/shahid-khaleel/eks-deployment) | Standalone EKS + IRSA + Cluster Autoscaler + AWS Load Balancer Controller reference build, plus a secondary-IP automation script |
-| [ansible](https://github.com/shahid-khaleel/ansible) | Role-based provisioning (Apache, Docker, Java, Keycloak, MySQL, MongoDB, Node.js, Redis) with a GitLab CI deploy pipeline |
-| [helm](https://github.com/shahid-khaleel/helm) | A Helm chart + CI scripting for deploying a Spring Boot app to EKS via an S3-backed chart repository |
+| [terraform](https://github.com/shahid-khaleel/terraform) | **Provisioned** a modular, environment-scoped (`qa`) EKS + KMS stack from reusable community modules |
+| [eks-deployment](https://github.com/shahid-khaleel/eks-deployment) | **Built** a standalone EKS reference deployment with IRSA, Cluster Autoscaler, and the AWS Load Balancer Controller, plus a secondary-IP automation script |
+| [ansible](https://github.com/shahid-khaleel/ansible) | **Automated** role-based provisioning (Apache, Docker, Java, Keycloak, MySQL, MongoDB, Node.js, Redis) through a GitLab CI deploy pipeline |
+| [helm](https://github.com/shahid-khaleel/helm) | **Shipped** a Helm chart + CI scripting to deploy a Spring Boot app to EKS via an S3-backed chart repository |
 
 ### ⎈ Kubernetes Platform & Security
 | Repo | Focus |
 |---|---|
-| [kubernetes](https://github.com/shahid-khaleel/kubernetes) | A collection of focused K8s operator demos: ConfigMap hot-reload, EFS CSI storage, IRSA for S3 access, the API request lifecycle (Kyverno + Kustomize), MySQL StatefulSet replication, and a full Jenkins → SonarQube → Docker → Minikube CI/CD pipeline built end-to-end |
-| [kubernetes-security-documentation](https://github.com/shahid-khaleel/kubernetes-security-documentation) | A curated ~150-topic personal knowledge base spanning Linux, Docker, and Kubernetes security fundamentals |
-| [kubernetes-fds](https://github.com/shahid-khaleel/kubernetes-fds) | A Kubernetes file-descriptor-exhaustion failure-mode simulator, paired with a Grafana dashboard to observe it |
+| [kubernetes](https://github.com/shahid-khaleel/kubernetes) | **Built** a focused set of K8s operator demos: ConfigMap hot-reload, EFS CSI storage, IRSA for S3 access, the API request lifecycle (Kyverno + Kustomize), MySQL StatefulSet replication, and a full Jenkins → SonarQube → Docker → Minikube CI/CD pipeline end-to-end |
+| [kubernetes-security-documentation](https://github.com/shahid-khaleel/kubernetes-security-documentation) | **Curated** a ~150-topic knowledge base spanning Linux, Docker, and Kubernetes security fundamentals |
+| [kubernetes-fds](https://github.com/shahid-khaleel/kubernetes-fds) | **Simulated** a Kubernetes file-descriptor-exhaustion failure mode, paired with a Grafana dashboard to observe it live |
 
 ### 🔐 Service Mesh, Identity & Secrets
 | Repo | Focus |
 |---|---|
-| [istio-service-mesh](https://github.com/shahid-khaleel/istio-service-mesh) | Istio service mesh capabilities on two demo microservices: strict mTLS, ingress gateway routing, canary traffic splitting, fault injection, and circuit breaking |
-| [keycloak-auth-apache](https://github.com/shahid-khaleel/keycloak-auth-apache) | Keycloak-based auth behind an Apache reverse proxy, with an evolution across branches toward a full Kubernetes + Istio + observability deployment |
-| [k8s-auth-keycloak](https://github.com/shahid-khaleel/k8s-auth-keycloak) | Kubernetes-native OIDC authentication via Keycloak, deployable via raw manifests, Helm, or Docker Compose |
-| [hashicorp-vault-project](https://github.com/shahid-khaleel/hashicorp-vault-project) | Vault secrets management implemented twice independently (Python/Flask and Java/Spring Boot), covering AppRole auth, KV v2, least-privilege policy, and zero-downtime secret rotation |
+| [istio-service-mesh](https://github.com/shahid-khaleel/istio-service-mesh) | **Demonstrated** core Istio mesh capabilities on two live microservices: strict mTLS, ingress gateway routing, canary traffic splitting, fault injection, and circuit breaking |
+| [keycloak-auth-apache](https://github.com/shahid-khaleel/keycloak-auth-apache) | **Evolved** Keycloak-based auth behind an Apache reverse proxy across branches into a full Kubernetes + Istio + observability deployment |
+| [k8s-auth-keycloak](https://github.com/shahid-khaleel/k8s-auth-keycloak) | **Implemented** Kubernetes-native OIDC authentication via Keycloak, deployable via raw manifests, Helm, or Docker Compose |
+| [hashicorp-vault-project](https://github.com/shahid-khaleel/hashicorp-vault-project) | **Implemented** Vault secrets management twice, independently, in Python/Flask and Java/Spring Boot — covering AppRole auth, KV v2, least-privilege policy, and zero-downtime secret rotation |
 
 ### 🚀 GitOps & Delivery
 | Repo | Focus |
 |---|---|
-| [argocd-deployment](https://github.com/shahid-khaleel/argocd-deployment) | A complete GitOps loop: GitHub Actions builds and pushes an image, rewrites the manifest, and Argo CD syncs it to a cluster — with real troubleshooting notes captured from live deployment sessions. |
+| [argocd-deployment](https://github.com/shahid-khaleel/argocd-deployment) | **Built** a complete GitOps loop: GitHub Actions builds and pushes an image, rewrites the manifest, and Argo CD syncs it to a cluster — with real troubleshooting notes captured from live deployment sessions |
 
 ### 🤖 MLOps & Observability
 | Repo | Focus |
 |---|---|
-| [mlops-credit-card-fraud-detection](https://github.com/shahid-khaleel/mlops-credit-card-fraud-detection) | A full MLOps stack (training → MLflow → model serving → prediction API) with Kubernetes manifests for autoscaling, RBAC, network policy, and a full observability stack (Prometheus/Grafana/Jaeger). |
-| [mlops](https://github.com/shahid-khaleel/mlops) | A churn-prediction MLOps stack on Minikube: MLflow tracking + Model Registry, KServe (Standard/RawDeployment mode) serving both a test and the production model, Kubeflow Trainer, and a fully working Kubeflow Dashboard behind Istio + Dex + oauth2-proxy — backed by a 12-section reference manual documenting every API surface, real gotcha hit, and the exact reproduction runbook. |
-| [kubeflow-implementation](https://github.com/shahid-khaleel/kubeflow-implementation) | A single-node Kubeflow proof-of-concept using real KServe/KFP custom resources for a training → serving pipeline |
-| [fluentd-implementation](https://github.com/shahid-khaleel/fluentd-implementation) | A Kubernetes logging pipeline: a custom Fluentd image and Helm chart routing multi-service logs to Elasticsearch and S3, with real incident write-ups |
+| [mlops-credit-card-fraud-detection](https://github.com/shahid-khaleel/mlops-credit-card-fraud-detection) | **Built** a full MLOps stack (training → MLflow → model serving → prediction API) with Kubernetes manifests for autoscaling, RBAC, network policy, and a full observability stack (Prometheus/Grafana/Jaeger) |
+| [mlops](https://github.com/shahid-khaleel/mlops) | **Built** a churn-prediction MLOps stack on Minikube: MLflow tracking + Model Registry, KServe (Standard/RawDeployment mode) serving both a test and the production model, Kubeflow Trainer, and a fully working Kubeflow Dashboard behind Istio + Dex + oauth2-proxy — backed by a 12-section reference manual documenting every API surface, real gotcha hit, and the exact reproduction runbook |
+| [kubeflow-implementation](https://github.com/shahid-khaleel/kubeflow-implementation) | **Built** a single-node Kubeflow proof-of-concept using real KServe/KFP custom resources for a training → serving pipeline |
+| [fluentd-implementation](https://github.com/shahid-khaleel/fluentd-implementation) | **Built** a Kubernetes logging pipeline — a custom Fluentd image and Helm chart routing multi-service logs to Elasticsearch and S3 — with real incident write-ups |
 
 ---
 
