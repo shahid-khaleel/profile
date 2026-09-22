@@ -16,6 +16,7 @@ Senior DevOps Engineer with close to 7 years building secure, reliable, cost-opt
 ## ⚡ Highlights
 
 **In production (fintech/BFSI):**
+- **Worked cross-border across the Americas, the Middle East, and Southeast Asia**: supported international clients in the USA, Canada, and Mexico earlier in my career, and currently support BFSI clients across the Middle East, Singapore, Malaysia, and Indonesia.
 - **Cut manual deployment effort by 80%** building GitLab CI/CD pipelines to automate AWS EKS deployments, then layering in GitOps via Argo CD for declarative, version-controlled rollouts.
 - **Cut AWS infrastructure costs by 25%** through resource right-sizing and autoscaling, without touching uptime SLAs.
 - **Cut incident response time by 60%** building out observability across microservices with Prometheus, Grafana, and Kibana.
