@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2B213A,50:E5289E,100:EF8539&height=200&section=header&text=Shahid%20Khaleel&fontSize=48&fontColor=ffffff&fontAlignY=38&desc=Senior%20DevOps%20Engineer&descAlignY=58&descSize=20&animation=fadeIn" width="100%"/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=E5289E&center=true&vCenter=true&width=750&lines=Senior+DevOps+Engineer;Kubernetes+%7C+GitOps+%7C+Service+Mesh+%7C+IaC;Self-hosted+GitLab+%2B+Kubernetes-native+CI%2FCD;I+ship+the+debugging+notes%2C+not+just+the+demo)](https://github.com/shahid-khaleel)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=E5289E&center=true&vCenter=true&width=750&lines=Senior+DevOps+Engineer;Site+Reliability+Engineer+%7C+Platform+Engineer+%7C+Cloud+Infrastructure+Engineer;Kubernetes+%7C+GitOps+%7C+Service+Mesh+%7C+IaC;Self-hosted+GitLab+%2B+Kubernetes-native+CI%2FCD;I+ship+the+debugging+notes%2C+not+just+the+demo)](https://github.com/shahid-khaleel)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-shahidkhaleel78-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shahidkhaleel78/)
 [![GitHub followers](https://img.shields.io/github/followers/shahid-khaleel?style=for-the-badge&logo=github&label=Follow&color=181717)](https://github.com/shahid-khaleel)
@@ -11,7 +11,7 @@
 
 </div>
 
-Senior DevOps Engineer with close to 7 years building secure, reliable, cost-optimized cloud infrastructure for fintech/BFSI platforms processing **1M+ transactions/day at 99.99% uptime**. Outside of work, I build real, working cloud-native infrastructure in the open — **IaC**, **Kubernetes**, **service mesh**, **cloud infrastructure**, **GitOps**, **identity & security**, **CI/CD**, **observability**, and **MLOps**. Every repository ships source code, infrastructure definitions, deployment workflows, and architecture docs — plus the trade-offs, debugging, and challenges I actually hit, not a polished-outcomes-only highlight reel.
+Senior DevOps Engineer (also: Site Reliability Engineer / Platform Engineer / Cloud Infrastructure Engineer) with close to 7 years building secure, reliable, cost-optimized cloud infrastructure for fintech/BFSI platforms processing **1M+ transactions/day at 99.99% uptime**. Outside of work, I build real, working cloud-native infrastructure in the open — **IaC**, **Kubernetes**, **service mesh**, **cloud infrastructure**, **GitOps**, **identity & security**, **CI/CD**, **observability**, and **MLOps**. Every repository ships source code, infrastructure definitions, deployment workflows, and architecture docs — plus the trade-offs, debugging, and challenges I actually hit, not a polished-outcomes-only highlight reel.
 
 ## ⚡ Highlights
 
