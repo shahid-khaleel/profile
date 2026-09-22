@@ -7,6 +7,8 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-shahidkhaleel78-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shahidkhaleel78/)
 [![GitHub followers](https://img.shields.io/github/followers/shahid-khaleel?style=for-the-badge&logo=github&label=Follow&color=181717)](https://github.com/shahid-khaleel)
 
+📍 Bengaluru, India · Open to relocation (hybrid/on-site)
+
 </div>
 
 Senior DevOps Engineer with close to 7 years building secure, reliable, cost-optimized cloud infrastructure for fintech/BFSI platforms processing **1M+ transactions/day at 99.99% uptime**. Outside of work, I build real, working cloud-native infrastructure in the open — **IaC**, **Kubernetes**, **service mesh**, **cloud infrastructure**, **GitOps**, **identity & security**, **CI/CD**, **observability**, and **MLOps**. Every repository ships source code, infrastructure definitions, deployment workflows, and architecture docs — plus the trade-offs, debugging, and challenges I actually hit, not a polished-outcomes-only highlight reel.
@@ -133,6 +135,7 @@ Kernel-level observability with **zero application instrumentation** — Cilium/
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Helm](https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white)
 ![Istio](https://img.shields.io/badge/Istio-466BB0?style=for-the-badge&logo=istio&logoColor=white)
+![Kiali](https://img.shields.io/badge/Kiali-1D2A5B?style=for-the-badge&logoColor=white)
 
 **Infrastructure as Code**
 ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
@@ -150,32 +153,44 @@ Kernel-level observability with **zero application instrumentation** — Cilium/
 
 **Identity, Security & Supply Chain**
 ![HashiCorp Vault](https://img.shields.io/badge/HashiCorp_Vault-000000?style=for-the-badge&logo=vault&logoColor=FFEC6E)
+![AWS Secrets Manager](https://img.shields.io/badge/AWS_Secrets_Manager-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
 ![Keycloak](https://img.shields.io/badge/Keycloak-4D4D4D?style=for-the-badge&logo=keycloak&logoColor=white)
 ![Kyverno](https://img.shields.io/badge/Kyverno-2F8CB3?style=for-the-badge&logo=kyverno&logoColor=white)
 
-**Observability**
+**Observability & Tracing**
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
 ![Jaeger](https://img.shields.io/badge/Jaeger-666666?style=for-the-badge&logo=jaeger&logoColor=white)
+![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-425CC7?style=for-the-badge&logo=opentelemetry&logoColor=white)
 ![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=for-the-badge&logo=elasticsearch&logoColor=white)
 ![Kibana](https://img.shields.io/badge/Kibana-005571?style=for-the-badge&logo=kibana&logoColor=white)
 ![Fluentd](https://img.shields.io/badge/Fluentd-0E83C8?style=for-the-badge&logo=fluentd&logoColor=white)
 
 **Cloud & App/ML Frameworks**
-![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white) *(EKS · IAM · KMS · EFS)*
+![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white) *(EKS · Lambda · IAM · KMS · VPC · Route53 · ALB/NLB · Security Groups · EFS)*
 ![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 
+**Caching & Databases**
+![Valkey](https://img.shields.io/badge/Valkey-2D2D2D?style=for-the-badge&logo=valkey&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+
+**Application Servers & Virtualization**
+![Tomcat](https://img.shields.io/badge/Tomcat-F8DC75?style=for-the-badge&logo=apachetomcat&logoColor=black)
+![JBoss](https://img.shields.io/badge/JBoss-EC1C24?style=for-the-badge&logoColor=white)
+![WebLogic](https://img.shields.io/badge/WebLogic-F80000?style=for-the-badge&logoColor=white)
+![VMware](https://img.shields.io/badge/VMware-607078?style=for-the-badge&logo=vmware&logoColor=white)
+
 ---
 
-## ☁️ AWS Expertise
+## ☁️ AWS Focus Areas
 
-![AWS Solutions Architect](https://img.shields.io/badge/AWS_Solutions_Architect-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
-![AWS DevOps Professional](https://img.shields.io/badge/AWS_DevOps_Professional-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
-![AWS Security](https://img.shields.io/badge/AWS_Security-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
-![AWS Networking](https://img.shields.io/badge/AWS_Networking-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
-![AWS Serverless](https://img.shields.io/badge/AWS_Serverless-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
-![AWS EKS](https://img.shields.io/badge/AWS_EKS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
+![Solutions Architecture](https://img.shields.io/badge/Solutions_Architecture-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
+![DevOps & Automation](https://img.shields.io/badge/DevOps_%26_Automation-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
+![Cloud Security](https://img.shields.io/badge/Cloud_Security-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
+![Networking](https://img.shields.io/badge/Networking-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
+![Serverless](https://img.shields.io/badge/Serverless-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
+![EKS & Containers](https://img.shields.io/badge/EKS_%26_Containers-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
 
 ---
 
