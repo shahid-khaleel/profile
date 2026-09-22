@@ -7,7 +7,7 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-shahidkhaleel78-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shahidkhaleel78/)
 [![GitHub followers](https://img.shields.io/github/followers/shahid-khaleel?style=for-the-badge&logo=github&label=Follow&color=181717)](https://github.com/shahid-khaleel)
 
-📍 Bengaluru, India · Open to relocation (hybrid/on-site)
+📍 Bengaluru, India (IST, UTC+5:30) · Open to relocation worldwide — visa sponsorship required · Comfortable with IST/CET/EST overlap hours
 
 </div>
 
@@ -19,8 +19,8 @@ Senior DevOps Engineer with close to 7 years building secure, reliable, cost-opt
 - **Cut manual deployment effort by 80%** building GitLab CI/CD pipelines to automate AWS EKS deployments, then layering in GitOps via Argo CD for declarative, version-controlled rollouts.
 - **Cut AWS infrastructure costs by 25%** through resource right-sizing and autoscaling, without touching uptime SLAs.
 - **Cut incident response time by 60%** building out observability across microservices with Prometheus, Grafana, and Kibana.
-- **Led disaster recovery** for a public-sector banking client — on-premises infrastructure buildout (Bengaluru–Kolkata) and cloud business continuity (Mumbai–Hyderabad) — including DR drills and RCSA remediation.
-- **Built compliance readiness** across RBI, REBIT, SOC 2, and ISO 27001, supporting successful regulatory audits with banking partners.
+- **Led disaster recovery** for a public-sector banking client — on-premises infrastructure buildout (Bengaluru–Kolkata) and cloud business continuity (Mumbai–Hyderabad) — including DR drills and RCSA (risk & control self-assessment) remediation.
+- **Built compliance readiness** across RBI (India's central bank regulator) and REBIT (its IT-standards arm) audits, plus the internationally recognized SOC 2 and ISO 27001, supporting successful regulatory audits with banking partners.
 - **Cut release time by 50%+** earlier in my career by automating builds and deployments with Jenkins.
 
 **In the open-source projects below:**
