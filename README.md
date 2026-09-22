@@ -7,7 +7,7 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-shahidkhaleel78-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shahidkhaleel78/)
 [![GitHub followers](https://img.shields.io/github/followers/shahid-khaleel?style=for-the-badge&logo=github&label=Follow&color=181717)](https://github.com/shahid-khaleel)
 
-📍 Bengaluru, India (IST, UTC+5:30) · Open to relocation worldwide — visa sponsorship required · Comfortable with IST/CET/EST overlap hours
+📍 Bengaluru, India (IST, UTC+5:30) · Open to relocation worldwide — visa sponsorship required
 
 </div>
 
